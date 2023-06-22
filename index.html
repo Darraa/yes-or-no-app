@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Yes or No</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-------------PARALLAX BACKGROUND------------->
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+
+        <div class="main">
+            <div class="interaction__container">
+                <label>Ask Your Question</label>
+                <input id="input" class="input" type="text" onkeypress="handleKeyEnter(event)" value="" required />
+                <span class="input__bar"></span>
+                <p id="error" class="error"></p>
+
+                <button id="button" type="submit" class="button btn btn__neon">
+                    Get Answer
+                </button>
+            </div>
+
+            <div id="ball" class="ball">
+                <div class="ball__response">
+                    <div class="ball__triangle"></div>
+                    <div id="answer" class="ball__answer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/script.js" defer></script>
+</body>
+
+</html>

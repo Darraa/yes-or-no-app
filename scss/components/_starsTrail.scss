@@ -1,0 +1,26 @@
+.trail{
+    position: fixed;
+    pointer-events: none;
+
+    &::before,
+    &::after{
+        content: '\2726';
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    &::before{
+        color: transparent;
+        text-shadow: 0 0 3px $star;
+    }
+
+    &::after{
+        background: $white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
