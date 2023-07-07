@@ -4,18 +4,18 @@ The yes-or-no-app is a simple application with a magical ball that provides "yes
 <h2>Features</h2>
 Features of the project:
 
--Ask questions: Users can input their questions into the app.
--Get answers: The app uses a magical ball to provide "yes" or "no" answers to the questions.
--Dynamic styling: SCSS is used to style the app, and the SCSS code is compiled into CSS for visual presentation.
+- Ask questions: Users can input their questions into the app.
+- Get answers: The app uses a magical ball to provide "yes" or "no" answers to the questions.
+- Dynamic styling: SCSS is used to style the app, and the SCSS code is compiled into CSS for visual presentation.
 
 <h2>Technologies Used</h2>
 Technologies that were used:
 
--HTML: The markup language used to structure the content and elements of the app.
--SCSS/CSS: SCSS is used to write the styles for the app, which are then compiled into CSS.
--JavaScript: The programming language used for implementing the logic and interactivity of the app.
--API: The app interacts with an API to retrieve answers for the questions asked.
--Fetch: The fetch function is used to make HTTP requests to the API and handle the responses.
+- HTML: The markup language used to structure the content and elements of the app.
+- SCSS/CSS: SCSS is used to write the styles for the app, which are then compiled into CSS.
+- JavaScript: The programming language used for implementing the logic and interactivity of the app.
+- API: The app interacts with an API to retrieve answers for the questions asked.
+- Fetch: The fetch function is used to make HTTP requests to the API and handle the responses.
 
 <h2>Usage</h2>
 To use the yes-or-no-app, follow these steps:
