@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.min.css">
+    <script type="module" src="./js/script.js" defer></script>
     <title>Yes or No</title>
 </head>
 
@@ -22,7 +23,7 @@
         <div class="main">
             <div class="interaction__container">
                 <label>Ask Your Question</label>
-                <input id="input" class="input" type="text" onkeypress="handleKeyEnter(event)" value="" required />
+                <input id="input" class="input" type="text" value="" required  autocomplete="off"/>
                 <span class="input__bar"></span>
                 <p id="error" class="error"></p>
 
@@ -40,7 +41,6 @@
         </div>
     </div>
 
-    <script type="module" src="./js/script.js" defer></script>
 </body>
 
 </html>

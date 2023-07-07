@@ -67,7 +67,7 @@ h6 {
 }
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .wrapper {
@@ -255,7 +255,6 @@ label {
 }
 .interaction__container .error {
   color: white;
-  margin: 0.3rem 0.8rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -321,7 +320,7 @@ label {
   width: 55px;
   height: 60px;
   left: 51%;
-  top: 52%;
+  top: 65%;
   opacity: 0;
   transition: ease-in all 0.2s;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #3f04ca, 0 0 35px #3f04ca, 0 0 40px #3f04ca, 0 0 50px #3f04ca, 0 0 75px #3f04ca;
